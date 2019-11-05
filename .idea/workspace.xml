@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b93dba7-2598-4819-99c3-d159413e23d8" name="Default Changelist" comment="" />
+    <list default="true" id="8b93dba7-2598-4819-99c3-d159413e23d8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/RestAssuredTutorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/RestAssuredTutorial.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,20 +30,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/RestAssuredTutorial.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
+            <state relative-caret-position="83">
+              <caret line="39" column="20" lean-forward="true" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/4.1.2/rest-assured-4.1.2-sources.jar!/io/restassured/response/ValidatableResponseOptions.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="963" column="6" selection-start-line="963" selection-start-column="6" selection-end-line="963" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -54,6 +47,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -75,6 +71,7 @@
     <option name="width" value="683" />
     <option name="height" value="728" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -112,6 +109,9 @@
       <pane id="Scope" />
     </panes>
   </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -124,7 +124,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RestAssuredTutorial">
+  <component name="RunManager" selected="JUnit.RestAssuredTutorial.testPathParams">
     <configuration name="RestAssuredTutorial" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="rest-assured-tutorial" />
       <extension name="coverage">
@@ -156,6 +156,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RestAssuredTutorial.testPathParams" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rest-assured-tutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.RestAssuredTutorial" />
+      <option name="METHOD_NAME" value="testPathParams" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RestAssuredTutorial.testShouldCountQtdGPIn2017" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="rest-assured-tutorial" />
       <extension name="coverage">
@@ -174,6 +190,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RestAssuredTutorial.testPathParams" />
         <item itemvalue="JUnit.RestAssuredTutorial.checkMD5checkSun" />
         <item itemvalue="JUnit.RestAssuredTutorial.testShouldCountQtdGPIn2017" />
         <item itemvalue="JUnit.RestAssuredTutorial" />
@@ -209,6 +226,9 @@
     <history-entry file="RestAssuredTutorial_checkMD5checkSun - 2019.11.05 at 18h 50m 34s.xml">
       <configuration name="RestAssuredTutorial.checkMD5checkSun" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RestAssuredTutorial_testPathParams - 2019.11.05 at 19h 05m 38s.xml">
+      <configuration name="RestAssuredTutorial.testPathParams" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1320" height="784" extended-state="6" />
@@ -243,13 +263,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/4.1.2/rest-assured-4.1.2-sources.jar!/io/restassured/response/ValidatableResponseOptions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="963" column="6" selection-start-line="963" selection-start-column="6" selection-end-line="963" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -257,10 +270,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/4.1.2/rest-assured-4.1.2-sources.jar!/io/restassured/response/ValidatableResponseOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="963" column="6" selection-start-line="963" selection-start-column="6" selection-end-line="963" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/RestAssuredTutorial.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
+        <state relative-caret-position="83">
+          <caret line="39" column="20" lean-forward="true" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

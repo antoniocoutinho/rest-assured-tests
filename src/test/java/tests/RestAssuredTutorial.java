@@ -36,4 +36,16 @@ public class RestAssuredTutorial {
                 assertThat().
                 body("md5", equalTo(MD5));
     }
+    @Test
+    public void testPathParams(){
+        String season = "2017";
+        int numberRaces = 20;
+
+        given().
+                pathParam("raceSeason", season).
+        when().
+                get("http://ergast.com/api/f1/{raceSeason}/circuits.json").
+        then().
+                body("MRData.CircuitTable.Circuits.circuitId",hasSize(numberRaces));
+    }
 }
