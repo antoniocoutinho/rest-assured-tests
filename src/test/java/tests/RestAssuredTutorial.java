@@ -2,6 +2,7 @@ package tests;
 
 import io.restassured.http.ContentType;
 import org.junit.Test;
+import org.testng.annotations.DataProvider;
 
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
